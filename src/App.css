@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  width:200;
+  background-color: #ffffff;
+
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f8f8f8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +38,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.block-chart article {
+  width: 375px !important;
+  height:150px !important;
+}
+.block-chart article > div,
+.block-chart article > div > div {
+  width: 92% !important;
+  height: 500px !important;
 }
